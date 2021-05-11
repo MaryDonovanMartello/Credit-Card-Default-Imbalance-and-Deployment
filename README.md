@@ -36,21 +36,19 @@ Adjusting the probability classification threshold (without resampling the data)
 
 ### Feature Engineering
 
-![Late](/images/credit card/Late.PNG)
+![Late](/images/Late.PNG)
 
 
 ### Comparison of Approaches to Imbalanced Target
 
-![results](/images/credit card/ImbResults.PNG)
+![results](/images/ImbResults.PNG)
 
 
-![rankings](/images/credit card/ImbRanking.PNG)
+![rankings](/images/ImbRanking.PNG)
 
 
 ### Deployment:  Risk Scorecard
 
-![ECD](/images/credit card/Scorecard.PNG)
+![ECD](/images/Scorecard.PNG)
 
-
-### The Complete Project: [here](https://github.com/MaryDonovanMartello/Credit-Card-Default-Imbalance-and-Deplyment).
 
