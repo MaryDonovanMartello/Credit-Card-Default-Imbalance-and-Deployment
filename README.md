@@ -51,4 +51,33 @@ Adjusting the probability classification threshold (without resampling the data)
 
 ![ECD](/images/Scorecard.PNG)
 
+**Notebooks**
+
+1_EDA_Prep
+This notebook includes the EDA and data preparation.
+
+1_Panda_Profile
+This notebook includes the EDA report produced from running the Panda Profile library.
+
+2_Test_Subsets_of_Features
+This notebook tests for best subsets of features with a logistic regression model.
+
+3_OptimizeThreshold
+This notebook approaches the imbalanced target in the dataset by making probability predictions to choose the best classification threshold for the imbalanced target.  
+
+4_TrainTestSplitMethod
+This notebook approaches the imbalanced target in the dataset by oversampling the training data after splitting the data with the holdout method.
+
+5_GroupKFoldMethodRandomOver
+This notebook approaches the imbalanced target in the dataset by oversampling the training data within Group K Fold for cross-validation.
+
+6_imblearnPipelineOverCombined
+This notebook approaches the imbalanced target in the dataset by oversampling the training data within an imblearn Pipeline.
+
+7_imblearnPipelineOverUnder
+This notebook approaches the imbalanced target in the dataset by both over and under sampling the training data within an imblearn Pipeline.
+
+8_DeployModel
+This notebook implements deployment models by making actual predictions and by converting the logistic regression coefficients to a risk score that can be used in making lending decisions.
+
 
